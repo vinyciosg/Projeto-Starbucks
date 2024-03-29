@@ -11,6 +11,7 @@
     }
 
 * {
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -129,7 +130,7 @@ header {
 }
 
 .section2-conteudo {
-    padding: 80px;
+    padding: 60px 80px;
 }
 
 .section2-conteudo .bar {
@@ -154,12 +155,12 @@ header {
 .section2-conteudo .des-g {
     width: 600px;
     line-height: 28px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .section2-conteudo .buttom {
     border: 2px solid black;
-    padding: 15px;
+    padding: 10px;
     width: 170px;
 }
 
@@ -201,7 +202,7 @@ header {
 }
 
 .section3-conteudo {
-    padding: 80px;
+    padding: 60px 80px;
 }
 
 .section3-conteudo .bar {
@@ -218,12 +219,12 @@ header {
 
 .section3-conteudo .des {
     line-height: 28px;
-    margin-bottom: 100px
+    margin-bottom: 60px
 }
 
 .section3-conteudo .buttom {
     border: 2px solid black;
-    padding: 15px;
+    padding: 10px;
     width: 170px;
     cursor: pointer;
 }
@@ -280,7 +281,7 @@ header {
 
 .section4-des {
     line-height: 28px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .section4-conteudo2 {
@@ -290,8 +291,8 @@ header {
 
 .section4-buttom {
     border: 2px solid black;
-    width: 180px;
-    padding: 15px;
+    width: 170px;
+    padding: 10px;
     cursor: pointer;
 }
 
@@ -302,4 +303,83 @@ header {
 
 .section4-buttom p {
     text-align: center;
+}
+
+.section5-container {
+    display: grid;
+    grid-template-columns: 520px 1fr;
+    background-color: #E8E9EE;
+   
+}
+
+.section5-img {
+    background-image: url(imagens/bg3.jpg); 
+    background-position: center;
+}
+
+.section5-conteudo {
+    padding: 150px 90px ;
+}
+
+.section5-bar {
+    width: 140px;
+    border: 11px solid #006341;
+    margin-bottom: 20px;
+}
+
+.section5-title {
+    font-family: var(--font-font1);
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.section5-des {
+    line-height: 28px;
+    margin-bottom: 60px;
+}
+
+.section5-buttom {
+    border: 2px solid black;
+    padding: 10px;
+    width: 170px;
+    cursor: pointer;
+}
+
+.section5-buttom:hover {
+    color: white;
+    background-color: gray;
+    transition: 0.2s;
+}
+
+.section5-buttom p {
+    text-align: center;
+}
+
+.section6 {
+    background-image: url(imagens/bg4.jpg);
+    background-size: cover;
+    background-position:  center center;
+    height: 660px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 300px;
+    background-color: #333333;
+    color: white;
+}
+
+footer .title {
+    font-family: var(--font-font1);
+
+    font-size: 1.2em;
+    margin-bottom: 70px;
+}
+
+footer .title a {
+    background-color: bl;
+    color: #117050;
 }
